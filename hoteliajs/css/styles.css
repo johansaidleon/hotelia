@@ -36,3 +36,67 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+.logo{
+    width: 65%;
+}
+
+.item{
+    color: var(--blanco);
+    font-family: "Marcellus", serif;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 0 1.5rem;
+}
+
+.btnlogin{
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    padding: 0.5rem, 1rem;
+    font-family: "marcellus", serif;
+    font-size: 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 1.5rem;    
+
+}
+
+/*banner*/
+
+#banner{
+    background-image: url(../img/slide1.jpg);
+    min-height: 500px;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.banner-title {
+    color: var(--blanco);
+    background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+    padding: 2rem;
+    width: 50%;
+}
+.banner-title h1{
+   
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+
+}
+
+#info{
+    background-color: var(--blanco);
+    display: flex;
+    min-height: 500px;
+
+}
+
+
+
+.info-p{
+    font-family: "marcellus", serif;
+    color: var(--negro2);
+    mask-image: url(../img/);
+}
