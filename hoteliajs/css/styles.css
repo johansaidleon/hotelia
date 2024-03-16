@@ -107,3 +107,70 @@ nav{
     flex-basis: 40%;
     max-width: 300px;
 }
+
+#feature{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg-features.png);
+}
+#feature h1{
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(0,0,0,0.5);
+    margin: 1.5rem 0;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 300;
+}
+
+.feature-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-blue{
+    background-color:  rgba(3, 10, 99, 0.733);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--blanco);
+    border-radius: 5px;
+
+}
+
+.box-black{
+    background-color:  rgba(34, 35, 46, 0.733);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--blanco);
+    border-radius: 5px;
+
+}
+.box-blue i, .box-black i{
+    font-size: 1.5em;
+    margin: 1rem;
+
+
+}
+
+.box-blue p, .box-black p{
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+
+
+}
+#ubicanos{
+    
+}
+
+#ubicanos h1{
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 1rem;
+    font-family: "marcellus", serif;
+}
