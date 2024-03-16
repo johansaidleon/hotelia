@@ -86,17 +86,24 @@ nav{
 
 }
 
+/* display info*/
+
 #info{
-    background-color: var(--blanco);
     display: flex;
-    min-height: 500px;
+    justify-content: space-around;
+    padding: 2rem;
+
+
+}
+#info p{
+    font-size: 1.7rem;
+    margin: 1rem;
+    flex-basis: 60%;
 
 }
 
-
-
-.info-p{
-    font-family: "marcellus", serif;
-    color: var(--negro2);
-    mask-image: url(../img/);
+#info img{
+    margin: 2rem;
+    flex-basis: 40%;
+    max-width: 300px;
 }
